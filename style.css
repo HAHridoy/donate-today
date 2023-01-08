@@ -1,9 +1,9 @@
 *{
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /* Header Section */
 .header{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     padding: 160px 200px;
     background-image: url(images/donation9.jpg);
@@ -25,4 +25,37 @@
     padding: 14px;
     border: none;
     border-radius: 5px;
+    margin-top: 30px;
+}
+/* section */
+.donate-today{
+    text-align: center;
+    margin-top: 100px;
+}
+.donate-title{
+    margin-bottom: 20px;
+}
+.donate-description{
+    margin-bottom: 40px;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.amount{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+}
+.taka{
+    width: 200px;
+}
+.taka-1{
+    color: aqua;
+    background-color: violet;
+    padding: 20px;
+    margin: 20px;
 }
